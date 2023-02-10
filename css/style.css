@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.box{
+    width: 500px;
+    height: 300px;
+    background: white;
+    padding: 1px;
+    border-radius: 10px;
+
+    
+}
+
+.box img {
+    width: 50%;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+}
