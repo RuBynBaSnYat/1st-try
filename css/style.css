@@ -14,8 +14,8 @@ body{
     
 }
 .box{
-    width: 550px;
-    height: 350px;
+    width: 500px;
+    height: 400px;
     background: white;
     padding: 1px;
     border-radius: 10px;
@@ -36,19 +36,25 @@ body{
     gap: 15px;
     padding: 19px;
     margin: 11px;
+    width: 250px;
     
     
 }
 
 .text p {
     font-size: 14px;
-    color: hsl(158, 36%, 37%);
+    color:  hsl(228, 12%, 48%);
     font-family: "Montserrat";
     font-weight: 700;
+    word-spacing: 3px;
+    letter-spacing: 0.5px;
+    
+    
 }
 .text h1{
     font-family: 'Fraunces', serif;
     font-weight: 500;
+    font-size: 25px;
     
 }
 .text h2{
@@ -56,4 +62,32 @@ body{
     font-family: "Montserrat Extralight";
     font-size: 12px;
     letter-spacing: 9px;
+
 }
+.text p1{
+    font-size: 25px;
+    color: hsl(158, 36%, 37%);
+    font-weight: bold;
+    font-family: 'Fraunces', serif;
+    
+
+}
+.text p3{
+    font-size: 13px;
+    color: hsl(228, 12%, 48%);
+    font-family: "Montserrat Extralight";
+    font-weight: 0;
+
+}
+button {
+        background-color: hsl(158, 36%, 37%);
+        border: none;
+        color: hsl(0, 0%, 100%);
+        padding: 11px 40px;
+        text-align: center;
+        font-size: 16px;
+        border-radius: 10px 10px 10px 10px;
+        word-spacing: 2px;
+
+    }
+      
